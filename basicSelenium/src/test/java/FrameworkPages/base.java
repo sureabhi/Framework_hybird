@@ -39,6 +39,7 @@ public class base {
 	
 	@BeforeTest
 	public void setup() {
+		//methods are defined  in the configure file
 		driver=browsefactory.fbrowser(driver,conf.getbrow(),conf.url());
 		
 	}
